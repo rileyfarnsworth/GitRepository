@@ -1,0 +1,111 @@
+## Mako can find this base file because it's in the settings.py -> MAKO_TEMPLATES_DIRS list
+<%inherit file="base_template.htm" />
+
+<%block name = "content">        
+  <div class="page-title">
+    <div class="container">
+      <h2><span class="glyphicon glyphicon-camera"></span>&nbsp Cameras <small>All Models</small></h2>
+      <hr />
+    </div><!--container-->
+  </div><!--page-title-->
+
+  <div class="shop-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-md-push-3">
+          <!-- Breadcrumb -->
+          <ul class="breadcrumb">
+            <li><a href="/JLR/welcome/">Home</a> <span class="divider"></spa/n></li>
+            <li><a href="/JLR/productCatalog">Products</a> <span class="divider"></span></li>
+            <li><a href="/JLR/productCatalog">Cameras</a> <span class="divider"></spa/n></li>
+            <li class="active">Canon DSLR 7D</li>
+          </ul><!--breadcrumb-->
+                 
+          <!-- Items List starts -->
+          <div class="detail-item">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="item-image">
+                  <img src="/static/base_app/images/Camera_cannon_DSLR_7D.png">
+                </div><!--item-image-->
+              </div><!--column-->
+
+              <div class="col-md-5">  
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h3><a href="single-item.html">Canon DSLR 7D</a></h3>
+                    <div class="clearfix"></div>
+                    <!-- Para. Note more than 2 lines. -->
+                    <p>&nbsp&nbsp<strong>Availability :</strong> In Stock</p>
+                    <p>&nbsp&nbsp<strong>Price :</strong> $1360</p>
+                    <p>&nbsp&nbsp<strong>Rental Price :</strong> $50/day</p>
+                    &nbsp&nbsp<a class="btn btn-success" a href="/JLR/shopping_cart/">Add to Cart</a>
+                  <hr /><!--header-->
+                </div><!--item-details-->
+              </div><!--column-->
+            </div><!-row-->
+          </div><!--detail-item-->
+
+          <ul class="nav nav-tabs ">
+            <li class="active"><a href="#" data-toggle="tab">Description</a></li>
+            <li><a href="#" data-toggle="tab">Specifications</a></li>
+            <li><a href="#" data-toggle="tab">Reviews&nbsp&nbsp<span class="badge">3</span></a></li>
+          </ul>
+
+          <div class="tab-content">
+            <h5>Canon DSLR 7D</h5>
+            <p>Known as one of the top cameras in all of photography, the 7D delivers unmatched performance. Take it with you to capture distant lands.
+               With the Canon DSLR 7D, you will reach new heights in your photography as you set at to discover the undiscovered and test the limits of
+               nature. Never leave home without the 7D in your bag or around your neck. You'll regret every uncaptured opportunity. Opportunity's knocking.
+               Go ahead. Answer.</p>
+          </div><!tab-content-->
+        </div><!--column-->
+
+      
+        
+        <div class="col-md-3 col-md-pull-9">
+          <!-- Single button -->
+            <div class="btn-group-vertical">
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-camera"></span>&nbsp Cameras <span class="caret"></span>
+              </button>
+               <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Canon</a></li>
+                <li><a href="#">Nikon</a></li>
+                <li><a href="#">Sony</a></li>
+                <li><a href="#">Pantex</a></li>
+              </ul>
+            </div>
+            
+            <div class="btn-group-vertical">
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-facetime-video"></span>&nbsp Video Cameras <span class="caret"></span>
+              </button>
+               <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Canon</a></li>
+                <li><a href="#">Nikon</a></li>
+                <li><a href="#">Sony</a></li>
+                <li><a href="#">JVC</a></li>
+              </ul>
+            </div>
+             <div class="btn-group-vertical">
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-facetime-video"></span>&nbsp Accessories <span class="caret"></span>
+              </button>
+               <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Lenses</a></li>
+                <li><a href="#">Straps</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">SD Cards</a></li>
+              </ul>
+            </div><!--button group-->
+        </div><!--side column-->
+      </div><!--row-->
+      <div class="row">&nbsp</div>
+    </div><!--container-->
+  </div><!--shop-items-->
+</%block>
+
+<%block name="join_us">
+</%block>

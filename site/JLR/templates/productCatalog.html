@@ -1,0 +1,259 @@
+## Mako can find this base file because it's in the settings.py -> MAKO_TEMPLATES_DIRS list
+<%inherit file="base_template.htm" />
+
+<%block name = "content">        
+  <div class="page-title">
+    <div class="container">
+      <h2><span class="glyphicon glyphicon-camera"></span>&nbsp Cameras <small>All Models</small></h2>
+      <hr />
+
+       <div class="col-md-5"></div>
+      <div class="col-md-6">
+       <form class="form-inline" role="form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search by Product">
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+     </div>
+    </div><!--container-->
+  </div><!--page-title--></br>
+
+  <div class="shop-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-md-push-3">
+          <!-- Breadcrumb -->
+          <ul class="breadcrumb">
+            <li><a href="/JLR/">Home</a> <span class="divider"></span></li>
+            <li><a href="/JLR/productCatalog/">Products</a> <span class="divider"></span></li>
+            <li class="active">Cameras</li>
+          </ul><!--breadcrumb-->
+                 
+        <!-- Items List starts -->
+        <div class="row">
+          <!-- Item #1 -->
+          <div class="col-md-4 col-sm-4 col-xs-6">
+            <div class="item">
+              <div class="well well-sm">              
+                <!-- Item image -->
+                <div class="item-image">
+                  <a href="/JLR/itemDetail/"><img src="/static/base_app/images/Camera_cannon_DSLR.png" alt="" class="img-responsive"/></a>
+                </div><!--item-image-->
+                
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a href="single-item.html">Canon DSLR 7D</a></h5>
+                  <div class="clearfix"></div>
+                    <!-- Para. Note more than 2 lines. -->
+                    <p>High Quality Camera for advanced photographers</p>
+                  <hr /><!--header-->
+                  
+                  <!-- Price -->
+                  <div class="item-price pull-left">$1360</div>
+                    <!-- Add to cart -->
+                    <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div><!--pull-right-->
+                    <div class="clearfix"></div><!--clearfix-->
+                </div><!--item-details-->
+              </div><!--well-->
+            </div><!--item-->
+          </div><!-column-->
+
+          <!-- Item #2 -->
+          <div class="col-md-4 col-sm-4 col-xs-6">
+            <div class="item">
+              <div class="well well-sm">
+              <!-- Item image -->
+              <div class="item-image">
+                <a href="single-item.html"><img src="/static/base_app/images/Camera_cannon_DSLR(2).png" alt=""  class="img-responsive"/></a>
+              </div><!--item-image-->
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a href="single-item.html">Canon DSLR 5D Mark II.</a></h5>
+                    <!-- Para. Note more than 2 lines. -->
+                    <p>High quality camera for advanced photographers.</p>
+                  <hr />
+                  
+                  <!-- Price -->
+                  <div class="item-price pull-left">$2264</div>
+                    <!-- Add to cart -->
+                    <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                      <div class="clearfix"></div>
+                    </div>
+                </div><!--well-->
+            </div><!--item-->
+          </div><!--column-->  
+
+          <div class="col-md-4 col-sm-4 col-xs-6">
+            <div class="item">
+              <div class="well well-sm">
+              <!-- Item image -->
+              <div class="item-image">
+                <a href="single-item.html"><img src="/static/base_app/images/Camera_pentax_k-r.jpg" alt="" class="img-responsive" /></a>
+              </div><!--item-image-->
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a href="single-item.html">Pentax K-R</a></h5>
+                    <!-- Para. Note more than 2 lines. -->
+                    <p>Something about the product goes here. Not More than 2 lines.</p>
+                  <hr />
+                
+                 <!-- Price -->
+                 <div class="item-price pull-left">$160</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div><!--well-->
+            </div><!--item-->
+          </div><!--column-->
+                     
+          
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-6">
+            <div class="item">
+              <div class="well well-sm">
+                <!-- Item image -->
+                <div class="item-image">
+                  <a href="single-item.html"><img src="/static/base_app/images/Camera_sony_a7.jpeg" alt=""  class="img-responsive"/></a>
+                </div><!--item-image-->
+     
+                  <!-- Item details -->
+                  <div class="item-details">
+                    <!-- Name -->
+                    <h5><a href="single-item.html">Sony a7</a></h5>
+                      <!-- Para. Note more than 2 lines. -->
+                      <p>Award-winning camera for advanced photographers</p>
+                    <hr />
+          
+                    <!-- Price -->
+                    <div class="item-price pull-left">$1699</div>
+                      <!-- Add to cart -->
+                      <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                      <div class="clearfix"></div>
+                  </div><!--item-details-->
+              </div><!--well-->
+            </div><!--item-->
+          </div><!--column-->
+          
+            <div class="col-md-4 col-sm-4 col-xs-6">
+              <div class="item">
+                <div class="well well-sm">
+                <div class="item-image">
+                  <a href="single-item.html"><img src="/static/base_app/images/Camera_sony_nex7.jpg" alt=""  class="img-responsive"/></a>
+                </div><!--item-image-->
+
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a href="single-item.html">Sony NEX-7</a></h5>
+                    <!-- Para. Note more than 2 lines. -->
+                    <p>Impressive camera for intermediate photographers.</p>
+                  <hr />
+                    
+                <!-- Price -->
+                <div class="item-price pull-left">$949</div>
+                  <!-- Add to cart -->
+                  <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                  <div class="clearfix"></div>
+                </div><!--item-details-->
+              </div><!--well-->
+             </div><!--item-->
+            </div><!--column-->
+
+            <div class="col-md-4 col-sm-4 col-xs-6">
+              <div class="item">
+                <div class="well well-sm">
+                <!-- Item image -->
+                <div class="item-image">
+                  <a href="single-item.html"><img src="/static/base_app/images/Camera_sony_nex6.jpg" alt=""  class="img-responsive"/></a>
+                </div>
+              
+                <!-- Item details -->
+                <div class="item-details">
+                  <!-- Name -->
+                  <h5><a href="single-item.html">Sony NEX-6</a></h5>
+                    <!-- Para. Note more than 2 lines. -->
+                    <p>Sony improved upon the NEX-6 and delivered the NEX-7.</p>
+                  <hr />
+               
+                  <!-- Price -->
+                  <div class="item-price pull-left">$649</div>
+                    <!-- Add to cart -->
+                    <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+                    <div class="clearfix"></div>
+                </div><!--item-details-->
+                </div><!--well-->
+              </div><!--item-->
+            </div><!--column-->
+          </div><!--row-->
+
+            <!-- Items List ends -->
+            <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-5">
+                <!-- Pagination -->
+                <ul class="pagination">
+                  <li><a href="#">&laquo;</a></li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">&raquo;</a></li>
+                </ul> 
+              </div><!--column-->
+            </div><!--row-->
+          </div><!--container-->
+        
+                         
+        <div class="col-md-3 col-md-pull-9">
+          <!-- Single button -->
+            <div class="btn-group-vertical">
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-camera"></span>&nbsp Cameras <span class="caret"></span>
+              </button>
+               <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Canon</a></li>
+                <li><a href="#">Nikon</a></li>
+                <li><a href="#">Sony</a></li>
+                <li><a href="#">Pantex</a></li>
+              </ul>
+            </div>
+            
+            <div class="btn-group-vertical">
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-facetime-video"></span>&nbsp Video Cameras <span class="caret"></span>
+              </button>
+               <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Canon</a></li>
+                <li><a href="#">Nikon</a></li>
+                <li><a href="#">Sony</a></li>
+                <li><a href="#">JVC</a></li>
+              </ul>
+            </div>
+             <div class="btn-group-vertical">
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-briefcase"></span>&nbsp Accessories <span class="caret"></span>
+              </button>
+               <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Lenses</a></li>
+                <li><a href="#">Straps</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">SD Cards</a></li>
+              </ul>
+         </div><!--button group-->
+        </div><!--side column-->
+      </div><!--row-->
+    </div><!--container-->
+  </div><!--shop-items-->
+</%block>
+
+<%block name="join_us">
+</%block>
+
+

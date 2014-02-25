@@ -1,0 +1,52 @@
+## Mako can find this base file because it's in the settings.py -> MAKO_TEMPLATES_DIRS list
+<%inherit file="base_template.htm" />
+
+  
+  <%block name="content">
+  </%block>
+
+	<%block name="Carousel">
+			<div id="myCarousel" class="carousel-slide" data-ride="carousel">
+				 <!-- Wrapper for slides -->
+        		<div class="carousel-inner">
+          			<div class="item active">
+            			<img src="/static/base_app/images/sunset.jpg" alt="Apple iPhone 5S" class="image-responsive">
+            			<div class="carousel-caption">
+              				<h3>Landspace Photos</h3>
+              				<p>Take amazing pictures of isolated landscapes</p>
+              			</div>
+           			</div>
+
+          			<div class="item">
+            			<img src="/static/base_app/images/beach (2).jpg" alt="Samsung Galaxy Note 3" class="image-responsive">
+            			<div class="carousel-caption">
+              				<h3>Oceanic Oasis</h3>
+             				<p>Capture the setting of the sun</p>
+             			</div>
+            		</div>
+
+          			<div class="item">
+            			<img src="/static/base_app/images/skyline (2).jpg" alt="Apple iPhone 5S" class="image-responsive">
+            			<div class="carousel-caption">
+              				<h3>City Skylines</h3>
+              				<p>Take it all in from your downtown apartment</p>
+              			</div>
+            		</div>
+            	</div>
+          			<!-- Controls -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="icon-prev"></span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="icon-next"></span>
+					</a>
+				
+			</div>
+	</%block>
+
+  <%block name="information">
+   Information here
+  </%block>
+
+
+	

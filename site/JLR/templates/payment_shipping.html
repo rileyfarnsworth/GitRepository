@@ -1,0 +1,168 @@
+## Mako can find this base file because it's in the settings.py -> MAKO_TEMPLATES_DIRS list
+<%inherit file="base_template.htm" />
+
+  
+  <%block name="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-9"<
+          <form class="form-horizontal" role="form">
+            <legend>Payment</legend>
+       
+            <div class="form-group">
+              <form class="form-inline" role="form">
+                <label class="form-label">Card Holder Name&nbsp</label>
+                    <input type="text" class="form-control">
+              </form></br>
+            
+       
+              <form class="form-inline" role="form">
+                  <div class="form-group">
+                    <label class="form-label">Credit Card Number&nbsp</label>
+                    <input type="email" class="form-control input-sm">
+                  
+                    <input type="text" class="form-control input-sm">
+                 
+                    <input type="password" class="form-control input-sm">
+                  
+                    <input type="password" class="form-control input-sm">
+                  </div>
+              </form></br>
+              
+
+              <form class="form-inline">
+                <div class="form-group">
+                  <label class="form-label">Card Expiration Date&nbsp</label>
+                    <select class="input-block-level form-control">
+                      <option></option>
+                      <option>January</option>
+                      <option>February</option>
+                      <option>March</option>
+                      <option>April</option>
+                      <option>May</option>
+                      <option>June</option>
+                      <option>July</option>
+                      <option>August</option>
+                      <option>September</option>
+                      <option>October</option>
+                      <option>November</option>
+                      <option>December</option>
+                    </select>
+                    <select class="input-block-level from-control">
+                      <option></option>
+                      <option>2014</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                    </select>
+                </div><!--form-group-->
+              </form><!--form-inline--></br>
+
+              <form class="form-inline">
+                <div class="form-group">
+                  <label class="form-label">Card CVV&nbsp</label>
+                        <input type="text" class="form-control input-sm" autocomplete="off" maxlength="4" pattern="\d{4}" title="Three/Four digits at back of your card" required>
+                </div>
+                      <div class="span8">
+                        <!-- screenshot may be here -->
+                      </div>
+              </form><!--form-inline--></br>
+
+              <legend>Shipping</legend>
+       
+            <div class="form-group">
+              <form class="form-inline" role="form">
+                <label class="form-label">First Name</label>&nbsp&nbsp
+                    <input type="text" class="form-control">
+                <label class="form-label">Last Name</label>
+                    <input type="text" class="form-control">
+                  
+              </form></br>
+
+              <form class="form-inline" role="form">
+                <label class="form-label">Address Line 1</label>&nbsp&nbsp
+                    <input type="text" class="form-control">
+                 <label class="form-label">Address Line 2</label>&nbsp&nbsp
+                    <input type="text" class="form-control"> 
+              </form></br>
+
+              <form class="form-inline" role="form">
+                <label class="form-label">City</label>&nbsp&nbsp
+                    <input type="text" class="form-control">
+                <label class="form-label">State&nbsp</label>
+                    <select class="input-block-level">
+                      <option></option>
+                      <option>AL</option>
+                      <option>AK</option>
+                      <option>AZ</option>
+                      <option>AR</option>
+                      <option>CA</option>
+                      <option>CO</option>
+                      <option>CT</option>
+                      <option>DE</option>
+                      <option>FL</option>
+                      <option>GA</option>
+                      <option>HI</option>
+                      <option>ID</option>
+                      <option>IL</option>
+                      <option>IN</option>
+                      <option>IA</option>
+                      <option>KS</option>
+                      <option>KY</option>
+                      <option>LA</option>
+                      <option>ME</option>
+                      <option>MD</option>
+                      <option>MA</option>
+                      <option>MI</option>
+                      <option>MN</option>
+                      <option>MS</option>
+                      <option>MO</option>
+                      <option>MT</option>
+                      <option>NE</option>
+                      <option>NV</option>
+                      <option>NH</option>
+                      <option>NJ</option>
+                      <option>NM</option>
+                      <option>NY</option>
+                      <option>NC</option>
+                      <option>ND</option>
+                      <option>OH</option>
+                      <option>OK</option>
+                      <option>OR</option>
+                      <option>PA</option>
+                      <option>RI</option>
+                      <option>SC</option>
+                      <option>SD</option>
+                      <option>TN</option>
+                      <option>TX</option>
+                      <option>UT</option>
+                      <option>VT</option>
+                      <option>VA</option>
+                      <option>WA</option>
+                      <option>WV</option>
+                      <option>WI</option>
+                      <option>WY</option>
+                    </select>&nbsp&nbsp
+                <label class="form-label">Zip&nbsp</label>
+                  <input type="text" class="form-control">
+              </form></br>
+
+              <form class="form-inline">
+                <div class="button-group">
+                  <a class="btn btn-success" href="/JLR/thank_you/"><span class="glyphicon glyphicon-credit-card"></span> Submit</a>
+                  <a class="btn btn-danger" href="/JLR/shopping_cart/"><span class="glyphicon glyphicon-remove"></span> Cancel</a>
+                </div>
+              </form></br>
+
+          </div><!--form-group-->
+      </form>
+    </div>
+  </div>
+</div>
+  </%block>
+
+<%block name="join_us">
+</%block>
+
+
+	
